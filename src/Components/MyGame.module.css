@@ -1,0 +1,26 @@
+.myout {
+    width: 304px;
+    height: 304px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width:768px) {       
+    .myout{
+       margin-top: 20%;
+    }
+}
+
+.my_in{
+    margin: 0.6px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(99, 93, 93);
+    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+img {
+    width: 100px;
+    height: 100px;
+}
